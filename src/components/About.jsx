@@ -56,6 +56,10 @@ const About = () => {
                                     <span className="text-white font-semibold mr-2">Languages:</span>
                                     <span className="text-white text-sm">Swedish, Finnish, English</span>
                                 </div>
+                                <div className="flex items-baseline">
+                                    <span className="text-white font-semibold mr-2">Age:</span>
+                                    <span className="text-white text-sm">36</span>
+                                </div>
                             </ul>
                         </section>
 
@@ -67,6 +71,53 @@ const About = () => {
                                 <span className="text-white font-semibold">Yrkesskola Optima - 2005-2008</span>
                                 <li>- CNC Machinist</li>
                             </ul>
+                        </section>
+
+                        {/* Full-width Coding Stack box */}
+                        <section className="md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-8 hover:ring-white/25 transition">
+                            <h2 className="text-white text-2xl font-semibold mb-5 justify-center items-center text-center">Development Stack</h2>
+                            <div className="flex flex-wrap items-center gap-5 justify-center items-center text-center">
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-6 h-6" />
+                                    <span className="text-gray-100">React</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-6 h-6" />
+                                    <span className="text-gray-100">JavaScript</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-6 h-6" />
+                                    <span className="text-gray-100">TypeScript</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-6 h-6" />
+                                    <span className="text-gray-100">PostgreSQL</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" className="w-6 h-6" />
+                                    <span className="text-gray-100">Firebase</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase" className="w-6 h-6" />
+                                    <span className="text-gray-100">Supabase</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-6 h-6" />
+                                    <span className="text-gray-100">Flutter</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" className="w-6 h-6" />
+                                    <span className="text-gray-100">React Native</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-6 h-6" />
+                                    <span className="text-gray-100">Node.js</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-6 h-6" />
+                                    <span className="text-gray-100">Golang</span>
+                                </div>
+                            </div>
                         </section>
 
                         <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
@@ -115,10 +166,11 @@ const About = () => {
 
                         <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
                             <h2 className="text-white text-2xl font-semibold mb-3">Hobbies</h2>
-                            <ul className="text-gray-200 space-y-2">
-                                <li>Building side projects</li>
-                                <li>Learning new technologies</li>
-                                <li>Outdoor activities</li>
+                            <ul className="text-gray-200 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <li className="flex items-center gap-3"><span className="text-emerald-400">💻</span><span>Computers</span></li>
+                                <li className="flex items-center gap-3"><span className="text-emerald-400">🏋️</span><span>Working out</span></li>
+                                <li className="flex items-center gap-3"><span className="text-emerald-400">🧠</span><span>Coding projects</span></li>
+                                <li className="flex items-center gap-3"><span className="text-emerald-400">🍎</span><span>Healthy lifestyle</span></li>
                             </ul>
                         </section>
                     </div>
