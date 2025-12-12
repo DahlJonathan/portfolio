@@ -82,6 +82,10 @@ const About = () => {
                                     <span className="text-gray-100">React</span>
                                 </div>
                                 <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-6 h-6" />
+                                    <span className="text-gray-100">Tailwind CSS</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-6 h-6" />
                                     <span className="text-gray-100">JavaScript</span>
                                 </div>
@@ -116,6 +120,14 @@ const About = () => {
                                 <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-6 h-6" />
                                     <span className="text-gray-100">Golang</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" className="w-6 h-6" />
+                                    <span className="text-gray-100">Visual Studio</span>
+                                </div>
+                                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-6 h-6" />
+                                    <span className="text-gray-100">Android Studio</span>
                                 </div>
                             </div>
                         </section>
