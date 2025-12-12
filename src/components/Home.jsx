@@ -21,12 +21,15 @@ const Home = () => {
                 </span>
             </div>
 
-            {/* Foreground image centered */}
-            <img
-                src="/minä.png"
-                alt="Jonathan Dahl"
-                className="relative z-10 w-[280px] h-[430px] sm:w-[360px] sm:h-[460px] md:w-[420px] md:h-[660px] object-cover rounded-xl shadow-2xl mt-10 md:mt-15 lg:mt-20"
-            />
+            {/* Foreground image centered with name below */}
+            <div className="relative z-10 flex flex-col items-center gap-3 mt-10 md:mt-15 lg:mt-30">
+                <img
+                    src="/minä.png"
+                    alt="Jonathan Dahl"
+                    className="w-[280px] h-[430px] sm:w-[360px] sm:h-[460px] md:w-[420px] md:h-[660px] object-cover rounded-xl shadow-2xl"
+                />
+                <span className="uppercase leading-none font-black text-white/50 text-6xl sm:text-7xl md:text-8xl lg:text-8xl z-10 text-center">Jonathan Dahl</span>
+            </div>
         </div>
     );
 };

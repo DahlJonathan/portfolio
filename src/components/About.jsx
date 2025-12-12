@@ -15,13 +15,7 @@ const About = () => {
             </div>
 
             <div className="max-w-4xl mx-auto relative z-10">
-                {/*
-                  KEY CHANGE HERE: Reduced the gap size significantly.
-                  Changed `gap-4 md:gap-6` to `gap-4 md:gap-0 lg:gap-8`
-                  - md:gap-0: removes the gap completely on medium screens, letting content touch.
-                  - lg:gap-8: adds a small, controlled gap (2rem / 32px) on large screens.
-                */}
-                <div className="grid md:grid-cols-2 gap-4 lg:gap-8 items-center">
+                <div className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
 
                     {/* Left text column */}
                     <div className="text-left">
@@ -42,6 +36,93 @@ const About = () => {
                             />
                         </div>
                     </div>
+                </div>
+
+                {/* Info sections under picture and introduction */}
+                <div className="relative z-10 w-full max-w-6xl mx-auto mt-10 md:mt-14">
+                    <div className="grid gap-8 md:grid-cols-2">
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                            <h2 className="text-white text-2xl font-semibold mb-3">Personal Info</h2>
+                            <ul className="text-gray-200 space-y-2">
+                                <div className="flex items-baseline">
+                                    <span className="text-white font-semibold mr-2">Name:</span>
+                                    <span className="text-white text-sm">Jonathan Dahl</span>
+                                </div>
+                                <div className="flex items-baseline">
+                                    <span className="text-white font-semibold mr-2">Location:</span>
+                                    <span className="text-white text-sm">Ylivieska, Finland</span>
+                                </div>
+                                <div className="flex items-baseline">
+                                    <span className="text-white font-semibold mr-2">Languages:</span>
+                                    <span className="text-white text-sm">Swedish, Finnish, English</span>
+                                </div>
+                            </ul>
+                        </section>
+
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                            <h2 className="text-white text-2xl font-semibold mb-3">School</h2>
+                            <ul className="text-gray-200 space-y-2">
+                                <span className="text-white font-semibold">Kood/Sisu — graduating April 2026</span>
+                                <li>- Full-stack and mobile developer</li>
+                                <span className="text-white font-semibold">Yrkesskola Optima - 2005-2008</span>
+                                <li>- CNC Machinist</li>
+                            </ul>
+                        </section>
+
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                            <h2 className="text-white text-2xl font-semibold mb-4">Work Experience</h2>
+                            {/* Timeline */}
+                            <div className="relative">
+                                <div className="absolute left-[7px] top-2 bottom-2 w-[2px] bg-white/10" />
+
+                                <div className="relative pl-8 pb-5">
+                                    <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
+                                    <div className="flex items-baseline justify-between">
+                                        <span className="text-white font-semibold">Software Developer Intern</span>
+                                        <span className="text-gray-400 text-sm">6 months</span>
+                                    </div>
+                                    <p className="text-gray-300 text-sm">Built full‑stack features and handled deployments</p>
+                                </div>
+
+                                <div className="relative pl-8 pb-5">
+                                    <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
+                                    <div className="flex items-baseline justify-between">
+                                        <span className="text-white font-semibold">Sievin Jalkine Oy</span>
+                                        <span className="text-gray-400 text-sm">2019 → present</span>
+                                    </div>
+                                    <p className="text-gray-300 text-sm">Factory Worker</p>
+                                </div>
+
+                                <div className="relative pl-8 pb-5">
+                                    <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
+                                    <div className="flex items-baseline justify-between">
+                                        <span className="text-white font-semibold">Kolppasen Betoni</span>
+                                        <span className="text-gray-400 text-sm">2014 → 2019</span>
+                                    </div>
+                                    <p className="text-gray-300 text-sm">Concrete Truck Operator</p>
+                                </div>
+
+                                <div className="relative pl-8">
+                                    <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
+                                    <div className="flex items-baseline justify-between">
+                                        <span className="text-white font-semibold">HSJ Production</span>
+                                        <span className="text-gray-400 text-sm">2009 → 2014</span>
+                                    </div>
+                                    <p className="text-gray-300 text-sm">Metalworker</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                            <h2 className="text-white text-2xl font-semibold mb-3">Hobbies</h2>
+                            <ul className="text-gray-200 space-y-2">
+                                <li>Building side projects</li>
+                                <li>Learning new technologies</li>
+                                <li>Outdoor activities</li>
+                            </ul>
+                        </section>
+                    </div>
+
                 </div>
             </div>
         </div>
