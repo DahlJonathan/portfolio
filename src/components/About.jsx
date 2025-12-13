@@ -60,6 +60,15 @@ const About = () => {
                                     <span className="text-white font-semibold mr-2">Age:</span>
                                     <span className="text-white text-sm">36</span>
                                 </div>
+                                <div className="mt-1">
+                                    <a
+                                        href="/CV%20-%20Jonathan%20Dahl.pdf"
+                                        download
+                                        className="inline-flex items-center text-sm text-emerald-200 hover:text-emerald-100 hover:bg-white/10 "
+                                    >
+                                        <span>Download CV</span>
+                                    </a>
+                                </div>
                             </ul>
                         </section>
 
