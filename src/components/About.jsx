@@ -85,7 +85,7 @@ const About = () => {
                         {/* Full-width Coding Stack box */}
                         <section className="md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-6 md:p-8 hover:ring-white/25 transition">
                             <h2 className="text-white text-2xl font-semibold mb-5 justify-center items-center text-center">Development Stack</h2>
-                            <div className="flex flex-wrap items-center gap-5 justify-center items-center text-center">
+                            <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-3 sm:gap-5 justify-center text-center">
                                 <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-6 h-6" />
                                     <span className="text-gray-100">React</span>
