@@ -16,7 +16,7 @@ const Navigation = ({ currentPage, onNavigate }) => {
             <div className="max-w-6xl mx-auto px-4 h-full">
 
                 {/* Mobile header: logo + hamburger */}
-                <div className="md:hidden flex items-center justify-between py-2">
+                <div className="md:hidden flex items-center justify-between ">
                     <div className="flex-1 flex justify-center">
                         <img src="/portfolio.png" alt="Portfolio Logo" className="h-24 w-auto drop-shadow-lg" />
                     </div>
@@ -53,11 +53,12 @@ const Navigation = ({ currentPage, onNavigate }) => {
                     </button>
 
                     {/* Logo: inline on mobile (already shown above), absolute-centered above on md+ */}
-                    <div className="hidden md:block md:w-48 md:relative">
-                        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-6 flex justify-center">
+                    <div className="w-100 relative z-11">
+                        <div className="absolute left-1/2 -translate-x-1/2 -top-13">
                             <img
                                 src="/portfolio.png"
                                 alt="Portfolio Logo"
+                                // Kept the large logo size as requested
                                 className="h-40 w-auto drop-shadow-lg"
                             />
                         </div>
