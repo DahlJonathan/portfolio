@@ -21,14 +21,15 @@ const Navigation = ({ currentPage, onNavigate }) => {
                         <img src="/portfolio.png" alt="Portfolio Logo" className="h-24 w-auto drop-shadow-lg" />
                     </div>
                     <button
-                        aria-label="Open menu"
+                        aria-label="Toggle menu"
+                        aria-expanded={isOpen ? 'true' : 'false'}
                         onClick={() => setIsOpen((v) => !v)}
-                        className="ml-3 inline-flex items-center justify-center rounded-md p-2 text-[#b7e4c7] hover:text-[#d8f3dc] hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white/30"
+                        className="ml-3 inline-flex flex-col items-center justify-center space-y-1 rounded-md p-2 text-[#b7e4c7] hover:text-[#d8f3dc] hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white/30"
                     >
                         <span className="sr-only">Toggle navigation</span>
-                        <span className={`block w-6 h-[2px] bg-current transition-transform ${isOpen ? 'translate-y-2 rotate-45' : ''}`}></span>
-                        <span className={`block w-6 h-[2px] bg-current my-1 transition-opacity ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                        <span className={`block w-6 h-[2px] bg-current transition-transform ${isOpen ? '-translate-y-2 -rotate-45' : ''}`}></span>
+                        <span className="block w-6 h-[2px] bg-current rounded"></span>
+                        <span className="block w-6 h-[2px] bg-current rounded"></span>
+                        <span className="block w-6 h-[2px] bg-current rounded"></span>
                     </button>
                 </div>
 
@@ -53,7 +54,7 @@ const Navigation = ({ currentPage, onNavigate }) => {
 
                     {/* Logo: inline on mobile (already shown above), absolute-centered above on md+ */}
                     <div className="hidden md:block md:w-48 md:relative">
-                        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-12 flex justify-center">
+                        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-6 flex justify-center">
                             <img
                                 src="/portfolio.png"
                                 alt="Portfolio Logo"
