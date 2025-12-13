@@ -5,22 +5,22 @@ const About = () => {
             {/* Diagonal green tick lines background (kept for styling) */}
             <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0">
                 {/* Primary line */}
-                <div className="absolute right-[-10%] top-0 w-[140%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#52b788] to-transparent rotate-[-35deg] opacity-70" />
-                {/* Secondary lines */}
-                <div className="absolute right-[-12%] top-[15%] w-[150%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#95d5b2] to-transparent rotate-[-32deg] opacity-60" />
-                <div className="absolute right-[-8%] top-[30%] w-[130%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-28deg] opacity-50" />
-                <div className="absolute right-[-15%] top-[50%] w-[160%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#74c69d] to-transparent rotate-[-33deg] opacity-50" />
-                <div className="absolute right-[-10%] top-[70%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
-                <div className="absolute right-[-10%] top-[80%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
+                <div className="absolute right-[-10%] top-0 w-[140%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#52b788] to-transparent rotate-[-35deg] opacity-60 sm:opacity-70" />
+                {/* Secondary lines (hide some on mobile for clarity) */}
+                <div className="hidden sm:block absolute right-[-12%] top-[15%] w-[150%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#95d5b2] to-transparent rotate-[-32deg] opacity-60" />
+                <div className="hidden sm:block absolute right-[-8%] top-[30%] w-[130%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-28deg] opacity-50" />
+                <div className="hidden sm:block absolute right-[-15%] top-[50%] w-[160%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#74c69d] to-transparent rotate-[-33deg] opacity-50" />
+                <div className="hidden sm:block absolute right-[-10%] top-[70%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
+                <div className="hidden sm:block absolute right-[-10%] top-[80%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
             </div>
 
             <div className="max-w-4xl mx-auto relative z-10">
-                <div className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
+                <div className="grid md:grid-cols-2 gap-4 sm:gap-6 lg:gap-10 items-center">
 
                     {/* Left text column */}
-                    <div className="text-left">
-                        <h1 className="text-6xl font-bold text-white mb-6">INTRODUCTION</h1>
-                        <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+                    <div className="md:text-left text-center">
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 md:mb-6">INTRODUCTION</h1>
+                        <p className="text-base sm:text-lg md:text-xl text-gray-200 leading-relaxed max-w-prose mx-auto md:mx-0">
                             Welcome to my portfolio! I'm a passionate full-stack and mobile developer student who loves coding and building meaningful applications.
                             I bring many years of hobbyist coding experience and 6 months of professional internship experience. I will be completing my degree at Kood/Sisu in April 2026.
                         </p>
@@ -32,7 +32,7 @@ const About = () => {
                             <img
                                 src="/minä2.png"
                                 alt="Jonathan Dahl"
-                                className="max-w-full max-h-[50vh] md:max-h-[50vh] object-contain rounded-md"
+                                className="max-w-full max-h-[38vh] sm:max-h-[45vh] md:max-h-[50vh] object-contain rounded-md"
                             />
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const About = () => {
                 {/* Info sections under picture and introduction */}
                 <div className="relative z-10 w-full max-w-6xl mx-auto mt-10 md:mt-14">
                     <div className="grid gap-8 md:grid-cols-2">
-                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                             <h2 className="text-white text-2xl font-semibold mb-3">Personal Info</h2>
                             <ul className="text-gray-200 space-y-2">
                                 <div className="flex items-baseline">
@@ -63,7 +63,7 @@ const About = () => {
                             </ul>
                         </section>
 
-                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                             <h2 className="text-white text-2xl font-semibold mb-3">School</h2>
                             <ul className="text-gray-200 space-y-2">
                                 <span className="text-white font-semibold">Kood/Sisu — graduating April 2026</span>
@@ -74,7 +74,7 @@ const About = () => {
                         </section>
 
                         {/* Full-width Coding Stack box */}
-                        <section className="md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-8 hover:ring-white/25 transition">
+                        <section className="md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-6 md:p-8 hover:ring-white/25 transition">
                             <h2 className="text-white text-2xl font-semibold mb-5 justify-center items-center text-center">Development Stack</h2>
                             <div className="flex flex-wrap items-center gap-5 justify-center items-center text-center">
                                 <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
@@ -132,7 +132,7 @@ const About = () => {
                             </div>
                         </section>
 
-                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                             <h2 className="text-white text-2xl font-semibold mb-4">Work Experience</h2>
                             {/* Timeline */}
                             <div className="relative">
@@ -176,7 +176,7 @@ const About = () => {
                             </div>
                         </section>
 
-                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-7 hover:ring-white/20 transition">
+                        <section className="bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                             <h2 className="text-white text-2xl font-semibold mb-3">Hobbies</h2>
                             <ul className="text-gray-200 grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 <li className="flex items-center gap-3"><span className="text-emerald-400">💻</span><span>Computers</span></li>
