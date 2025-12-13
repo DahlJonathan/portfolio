@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="relative min-h-[calc(100vh-80px)] flex items-start justify-center bg-black px-4 pt-6 md:pt-10 lg:pt-14 overflow-hidden">
+        <div className="relative min-h-[calc(100dvh-80px)] flex items-start justify-center bg-black px-4 pt-6 md:pt-10 lg:pt-14 overflow-hidden">
             <div aria-hidden="true" className="pointer-events-none absolute inset-0">
                 {/* Primary line */}
                 <div className="absolute right-[-10%] top-0 w-[140%] h-[2px] bg-gradient-to-l from-[#2d6a4f] via-[#52b788] to-transparent rotate-[-35deg] opacity-70" />

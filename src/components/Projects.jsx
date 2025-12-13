@@ -60,13 +60,13 @@ const Projects = () => {
                     >
                         {/* Image */}
                         <div className="w-full md:w-1/2">
-                            <div className="w-full h-64 sm:h-72 md:h-80 bg-transparent rounded-lg overflow-hidden">
+                            <div className="w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[16/7] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
                                 {project.link ? (
                                     <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${project.title}`}>
                                         <img
                                             src={project.image}
                                             alt={project.title}
-                                            className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                                            className="max-w-full max-h-full object-contain hover:opacity-90 transition-opacity"
                                             onError={(e) => {
                                                 e.target.src = 'https://via.placeholder.com/800x400?text=' + project.title;
                                             }}
@@ -76,7 +76,7 @@ const Projects = () => {
                                     <img
                                         src={project.image}
                                         alt={project.title}
-                                        className="w-full h-full object-cover"
+                                        className="max-w-full max-h-full object-contain"
                                         onError={(e) => {
                                             e.target.src = 'https://via.placeholder.com/800x400?text=' + project.title;
                                         }}

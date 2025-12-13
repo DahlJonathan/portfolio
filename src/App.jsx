@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-[100dvh] bg-black">
       <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
       {renderPage()}
     </div>
