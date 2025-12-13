@@ -16,10 +16,8 @@ const Navigation = ({ currentPage, onNavigate }) => {
             <div className="max-w-6xl mx-auto px-4 h-full">
 
                 {/* Mobile header: logo + hamburger */}
-                <div className="md:hidden flex items-center justify-between ">
-                    <div className="flex-1 flex justify-center">
-                        <img src="/portfolio.png" alt="Portfolio Logo" className="h-24 w-auto drop-shadow-lg" />
-                    </div>
+                <div className="md:hidden flex items-center justify-between py-1">
+
                     <button
                         aria-label="Toggle menu"
                         aria-expanded={isOpen ? 'true' : 'false'}
@@ -34,7 +32,7 @@ const Navigation = ({ currentPage, onNavigate }) => {
                 </div>
 
                 {/* Collapsible menu on mobile, centered row on md+ */}
-                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center md:justify-center justify-center h-full relative gap-2 py-2`}>
+                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center md:justify-center justify-center h-full relative gap-1 md:gap-2 py-1 md:py-2`}>
 
                     {/* Home */}
                     <button
@@ -52,14 +50,13 @@ const Navigation = ({ currentPage, onNavigate }) => {
                         About
                     </button>
 
-                    {/* Logo: inline on mobile (already shown above), absolute-centered above on md+ */}
-                    <div className="w-100 relative z-11">
-                        <div className="absolute left-1/2 -translate-x-1/2 -top-13">
+                    {/* Logo: inline on mobile (shown above), absolute-centered above on md+ */}
+                    <div className="hidden md:block md:w-64 md:relative">
+                        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-12 flex justify-center">
                             <img
                                 src="/portfolio.png"
                                 alt="Portfolio Logo"
-                                // Kept the large logo size as requested
-                                className="h-40 w-auto drop-shadow-lg"
+                                className="h-48 w-auto drop-shadow-lg"
                             />
                         </div>
                     </div>
