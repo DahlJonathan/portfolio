@@ -52,14 +52,14 @@ const Projects = () => {
                 <div className="absolute right-[-10%] top-[70%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
                 <div className="absolute right-[-10%] top-[80%] w-[120%] h-[2px] bg-gradient-to-l from-[#1b4332] via-[#52b788] to-transparent rotate-[-30deg] opacity-40" />
             </div>
-            <div className="relative z-10 max-w-5xl mx-auto space-y-10">
+            <div className="relative z-10 max-w-5xl mx-auto space-y-2">
                 {projects.map((project, idx) => (
                     <div
                         key={project.id}
                         className={`flex flex-col md:flex-row ${idx % 2 === 1 ? 'md:flex-row-reverse' : ''} items-stretch gap-6 rounded-2xl shadow-2xl p-6`}
                     >
                         {/* Image */}
-                        <div className="w-full md:w-1/2">
+                        <div className="w-full md:w-1/2 px-1 md:px-1">
                             <div className="w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[16/7] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
                                 {project.link ? (
                                     <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${project.title}`}>
@@ -86,8 +86,8 @@ const Projects = () => {
                         </div>
 
                         {/* Text */}
-                        <div className="w-full md:w-1/2 flex flex-col justify-center h-full">
-                            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">{project.title}</h2>
+                        <div className="w-full md:w-1/2 px-4 md:px-8 flex flex-col justify-center h-full">
+                            <h2 className="text-2xl md:text-3xl font-bold text-white mb-1">{project.title}</h2>
                             <p className="text-white mb-4">{project.description}</p>
                             {project.link && (
                                 <a
