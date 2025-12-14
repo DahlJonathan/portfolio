@@ -26,7 +26,7 @@ const Home = () => {
                 <img
                     src="/minä.png"
                     alt="Jonathan Dahl"
-                    className="w-[280px] h-[430px] sm:w-[360px] sm:h-[460px] md:w-[420px] md:h-[660px] object-cover rounded-xl shadow-2xl"
+                    className="w-[300px] h-[430px] sm:w-[360px] sm:h-[460px] md:w-[440px] md:h-[660px] object-cover rounded-xl shadow-2xl"
                 />
                 <span className="uppercase leading-none font-black text-white/50 text-6xl sm:text-7xl md:text-8xl lg:text-8xl z-10 text-center">Jonathan Dahl</span>
             </div>

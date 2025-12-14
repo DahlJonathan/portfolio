@@ -56,7 +56,7 @@ const Navigation = ({ currentPage, onNavigate }) => {
                             <img
                                 src="/portfolio.png"
                                 alt="Portfolio Logo"
-                                className="h-48 w-auto drop-shadow-lg"
+                                className="h-36 w-auto drop-shadow-lg"
                             />
                         </div>
                     </div>
