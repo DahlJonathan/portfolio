@@ -32,26 +32,27 @@ const Navigation = ({ currentPage, onNavigate }) => {
                 </div>
 
                 {/* Collapsible menu on mobile, centered row on md+ */}
-                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center md:justify-center justify-center h-full relative gap-1 md:gap-2 py-1 md:py-2`}>
+                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center h-full relative gap-1 md:gap-2 py-1 md:py-2`}>
 
-                    {/* Home */}
-                    <button
-                        onClick={() => handleNav('home')}
-                        className={`text-base md:text-lg transition-colors md:mr-8 ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
-                    >
-                        Home
-                    </button>
+                    {/* Left group - uses 1/3 width on md+ to balance with right */}
+                    <div className="w-full md:w-1/3 flex items-center md:justify-end justify-center gap-6">
+                        <button
+                            onClick={() => handleNav('home')}
+                            className={`text-base md:text-lg transition-colors ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                        >
+                            Home
+                        </button>
 
-                    {/* About me */}
-                    <button
-                        onClick={() => handleNav('about')}
-                        className={`text-base md:text-lg transition-colors ${currentPage === 'about' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
-                    >
-                        About
-                    </button>
+                        <button
+                            onClick={() => handleNav('projects')}
+                            className={`text-base md:text-lg transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                        >
+                            Projects
+                        </button>
+                    </div>
 
-                    {/* Logo: inline on mobile (shown above), absolute-centered above on md+ */}
-                    <div className="hidden md:block md:w-64 md:relative">
+                    {/* Center group for logo */}
+                    <div className="hidden md:flex md:w-1/3 md:items-center md:justify-center md:relative">
                         <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-12 flex justify-center">
                             <img
                                 src="/portfolio.png"
@@ -61,23 +62,24 @@ const Navigation = ({ currentPage, onNavigate }) => {
                         </div>
                     </div>
 
-                    {/* Projects */}
-                    <button
-                        onClick={() => handleNav('projects')}
-                        className={`text-base md:text-lg transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
-                    >
-                        Projects
-                    </button>
+                    {/* Right group - 1/3 width to balance left */}
+                    <div className="w-full md:w-1/3 flex items-center md:justify-start justify-center gap-6">
+                        <a
+                            href="https://www.linkedin.com/in/dahljonathanhendry"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors"
+                        >
+                            LinkedIn
+                        </a>
 
-                    {/* LinkedIn */}
-                    <a
-                        href="https://www.linkedin.com/in/dahljonathanhendry"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors md:ml-8"
-                    >
-                        LinkedIn
-                    </a>
+                        <a
+                            href="/CV%20-%20Jonathan%20Dahl.pdf"
+                            className="text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors"
+                        >
+                            <span className="whitespace-nowrap">CV</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
