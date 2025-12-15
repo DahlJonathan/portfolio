@@ -35,17 +35,17 @@ const Navigation = ({ currentPage, onNavigate }) => {
                 <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center h-full relative gap-1 md:gap-2 py-1 md:py-2`}>
 
                     {/* Left group - uses 1/3 width on md+ to balance with right */}
-                    <div className="w-full md:w-1/3 flex items-center md:justify-end justify-center gap-6">
+                    <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center md:justify-end justify-center gap-1 md:gap-6 py-1 md:py-0">
                         <button
                             onClick={() => handleNav('home')}
-                            className={`text-base md:text-lg transition-colors ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                            className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
                         >
                             Home
                         </button>
 
                         <button
                             onClick={() => handleNav('projects')}
-                            className={`text-base md:text-lg transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                            className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
                         >
                             Projects
                         </button>
@@ -63,19 +63,20 @@ const Navigation = ({ currentPage, onNavigate }) => {
                     </div>
 
                     {/* Right group - 1/3 width to balance left */}
-                    <div className="w-full md:w-1/3 flex items-center md:justify-start justify-center gap-6">
+                    <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center md:justify-start justify-center gap-1 md:gap-6 py-1 md:py-0">
+
                         <a
                             href="https://www.linkedin.com/in/dahljonathanhendry"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors"
+                            className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
                         >
                             LinkedIn
                         </a>
 
                         <a
                             href="/CV%20-%20Jonathan%20Dahl.pdf"
-                            className="text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors"
+                            className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
                         >
                             <span className="whitespace-nowrap">CV</span>
                         </a>
