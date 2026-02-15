@@ -12,6 +12,9 @@ const Projects = () => {
         Tailwind: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
         'Tailwind CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
         Vite: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg',
+        TypeScript: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+        Golang: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
+        SQLite: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg',
     };
 
     const getIcon = (tech) => ICONS[tech] || null;
@@ -23,6 +26,7 @@ const Projects = () => {
             technologies: ['Flutter', 'Firebase'],
             image: '/koodconnect.png',
             link: 'https://play.google.com/store/apps/details?id=fi.kood.sisu',
+            linkText: 'View on Play Store'
         },
         {
             id: 2,
@@ -30,13 +34,26 @@ const Projects = () => {
             description: 'This portfolio is built from scratch using React and Tailwind, designed to showcase my skills as a frontend developer',
             technologies: ['React', 'Tailwind'],
             image: '/thisportfolio.png',
+            link: 'https://github.com/DahlJonathan/portfolio',
+            linkText: 'View on GitHub'
         },
         {
             id: 3,
             title: 'Internship',
-            description: 'A full-stack project with integrated AI, where I used React for the frontend, Node.js for the backend, and Supabase for the database. I deployed the entire application myself and learned a lot throughout the process — from planning to deployment.',
+            description: 'A full-stack project with integrated AI',
             technologies: ['React', 'Node.js', 'Express', 'Supabase'],
             image: '/Iisiduuni.png',
+            link: '',
+            linkText: ''
+        },
+        {
+            id: 3,
+            title: 'Full-stack project',
+            description: 'A full-stack project I built to challenge myself with Golang and TypeScript. It’s a clean and straightforward system for managing users, where I focused on making the frontend and backend talk to each other as smoothly as possible. Using SQLite kept things lightweight, and React made the UI snappy and easy to use.',
+            technologies: ['React', 'TypeScript', 'Golang', 'SQLite'],
+            image: '/user-managment-system.png',
+            link: 'https://github.com/DahlJonathan/User-Management-System',
+            linkText: 'View on GitHub'
         },
     ];
 
@@ -58,7 +75,6 @@ const Projects = () => {
                         key={project.id}
                         className={`flex flex-col md:flex-row ${idx % 2 === 1 ? 'md:flex-row-reverse' : ''} items-stretch gap-6 rounded-2xl shadow-2xl p-6`}
                     >
-                        {/* Image */}
                         <div className="w-full md:w-1/2 px-1 md:px-1">
                             <div className="w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[16/7] bg-transparent rounded-lg overflow-hidden flex items-center justify-center">
                                 {project.link ? (
@@ -84,8 +100,6 @@ const Projects = () => {
                                 )}
                             </div>
                         </div>
-
-                        {/* Text */}
                         <div className="w-full md:w-1/2 px-4 md:px-8 flex flex-col justify-center h-full">
                             <h2 className="text-2xl md:text-3xl font-bold text-white mb-1">{project.title}</h2>
                             <p className="text-white mb-4">{project.description}</p>
@@ -96,7 +110,10 @@ const Projects = () => {
                                     rel="noopener noreferrer"
                                     className="group inline-flex items-center gap-2"
                                 >
-                                    <span className="text-white transition-colors group-hover:text-blue-400">Download on Play Store</span>
+                                    <span className="text-white transition-colors group-hover:text-blue-400 font-medium">
+                                        {project.linkText || 'Link to project'}
+                                    </span>
+                                    <span className="text-white group-hover:text-blue-400 transition-transform group-hover:translate-x-1">→</span>
                                 </a>
                             )}
                             <div className="flex flex-wrap gap-2 mt-2">
