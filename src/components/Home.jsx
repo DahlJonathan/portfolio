@@ -114,16 +114,8 @@ const Home = () => {
                                         <span className="text-gray-100">Firebase</span>
                                     </div>
                                     <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase" className="w-6 h-6" />
-                                        <span className="text-gray-100">Supabase</span>
-                                    </div>
-                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-6 h-6" />
                                         <span className="text-gray-100">Flutter</span>
-                                    </div>
-                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" className="w-6 h-6" />
-                                        <span className="text-gray-100">React Native</span>
                                     </div>
                                     <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-6 h-6" />
