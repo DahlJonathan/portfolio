@@ -40,7 +40,7 @@ const Projects = () => {
         {
             id: 3,
             title: 'Internship',
-            description: 'A full-stack project with integrated AI',
+            description: 'Built a full-stack web app using React for the frontend and Node.js/Express for the backend. Used Supabase for the database and added AI features into the app. Helped deploy and publish the whole project.',
             technologies: ['React', 'Node.js', 'Express', 'Supabase'],
             image: '/Iisiduuni.png',
             link: '',
@@ -49,7 +49,7 @@ const Projects = () => {
         {
             id: 3,
             title: 'Full-stack project',
-            description: 'A full-stack project I built to challenge myself with Golang and TypeScript. It’s a clean and straightforward system for managing users, where I focused on making the frontend and backend talk to each other as smoothly as possible. Using SQLite kept things lightweight, and React made the UI snappy and easy to use.',
+            description: 'A full-stack project I built to challenge myself in Golang and TypeScript. Its a user management system where I focused on getting the frontend and backend to work nicely together. Used SQLite to keep things light and React for the UI.',
             technologies: ['React', 'TypeScript', 'Golang', 'SQLite'],
             image: '/user-managment-system.png',
             link: 'https://github.com/DahlJonathan/User-Management-System',
