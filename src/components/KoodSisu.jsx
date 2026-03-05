@@ -86,21 +86,21 @@ const KoodSisu = () => {
                                 </div>
                                 <div className="rounded-lg overflow-hidden">
                                     <img
-                                        src="/kood6.png"
+                                        src="/kood8.png"
                                         alt="Kood/Sisu feedback 6"
                                         className="w-full h-auto"
                                     />
                                 </div>
                                 <div className="rounded-lg overflow-hidden">
                                     <img
-                                        src="/kood7.png"
+                                        src="/kood6.png"
                                         alt="Kood/Sisu feedback 7"
                                         className="w-full h-auto"
                                     />
                                 </div>
                                 <div className="rounded-lg overflow-hidden">
                                     <img
-                                        src="/kood8.png"
+                                        src="/kood7.png"
                                         alt="Kood/Sisu feedback 8"
                                         className="w-full h-auto"
                                     />
