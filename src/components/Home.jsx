@@ -36,8 +36,8 @@ const Home = () => {
                     <div className="text-center">
                         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 md:mb-6">INTRODUCTION</h1>
                         <p className="text-base sm:text-lg md:text-xl text-gray-200 leading-relaxed max-w-prose mx-auto text-center">
-                            Welcome to my portfolio! I'm a passionate full-stack and mobile developer student who loves coding and building meaningful applications.
-                            I bring many years of hobbyist coding experience and 6 months of professional internship experience. I will be completing my degree at Kood/Sisu in April 2026.
+                            Welcome to my portfolio! My name is Jonathan and i'm a passionate full-stack and mobile developer graduate who loves coding and building meaningful applications.
+                            I bring many years of hobbyist coding experience and 6 months of professional internship experience.
                         </p>
                     </div>
 
@@ -78,7 +78,7 @@ const Home = () => {
                             <section className="relative z-40 bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                                 <h2 className="text-white text-2xl font-semibold mb-3">School</h2>
                                 <ul className="text-gray-200 space-y-2">
-                                    <span className="text-white font-semibold">Kood/Sisu — graduating April 2026</span>
+                                    <span className="text-white font-semibold">Kood/Sisu — 2024 - 2026</span>
                                     <li>- Full-stack and mobile developer</li>
                                     <span className="text-white font-semibold">Yrkesskola Optima - 2005-2008</span>
                                     <li>- CNC Machinist</li>

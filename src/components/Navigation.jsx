@@ -32,55 +32,45 @@ const Navigation = ({ currentPage, onNavigate }) => {
                 </div>
 
                 {/* Collapsible menu on mobile, centered row on md+ */}
-                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center h-full relative gap-1 md:gap-2 py-1 md:py-2`}>
+                <div className={`${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row flex-col items-center justify-center h-full gap-2 md:gap-10 py-1 md:py-2`}>
 
-                    {/* Left group - uses 1/3 width on md+ to balance with right */}
-                    <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center md:justify-end justify-center gap-1 md:gap-6 py-1 md:py-0">
-                        <button
-                            onClick={() => handleNav('home')}
-                            className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
-                        >
-                            Home
-                        </button>
+                    <button
+                        onClick={() => handleNav('home')}
+                        className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'home' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                    >
+                        Home
+                    </button>
 
-                        <button
-                            onClick={() => handleNav('projects')}
-                            className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
-                        >
-                            Projects
-                        </button>
-                    </div>
+                    <button
+                        onClick={() => handleNav('projects')}
+                        className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'projects' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                    >
+                        Projects
+                    </button>
 
-                    {/* Center group for logo */}
-                    <div className="hidden md:flex md:w-1/3 md:items-center md:justify-center md:relative">
-                        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-12 flex justify-center">
-                            <img
-                                src="/portfolio.png"
-                                alt="Portfolio Logo"
-                                className="h-36 w-auto drop-shadow-lg"
-                            />
-                        </div>
-                    </div>
+                    <button
+                        onClick={() => handleNav('koodsisu')}
+                        className={`w-full md:w-auto text-center text-base md:text-lg py-1 md:py-0 transition-colors ${currentPage === 'koodsisu' ? 'text-[#d8f3dc] font-semibold' : 'text-[#b7e4c7] hover:text-[#d8f3dc]'}`}
+                    >
+                        Kood/Sisu
+                    </button>
 
-                    {/* Right group - 1/3 width to balance left */}
-                    <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center md:justify-start justify-center gap-1 md:gap-6 py-1 md:py-0">
+                    <a
+                        href="https://www.linkedin.com/in/dahljonathanhendry"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
+                    >
+                        LinkedIn
+                    </a>
 
-                        <a
-                            href="https://www.linkedin.com/in/dahljonathanhendry"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
-                        >
-                            LinkedIn
-                        </a>
+                    <a
+                        href="/CV%20-%20Jonathan%20Dahl.pdf"
+                        className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
+                    >
+                        <span className="whitespace-nowrap">CV</span>
+                    </a>
 
-                        <a
-                            href="/CV%20-%20Jonathan%20Dahl.pdf"
-                            className="w-full md:w-auto text-center text-base md:text-lg text-[#b7e4c7] hover:text-[#d8f3dc] transition-colors py-1 md:py-0"
-                        >
-                            <span className="whitespace-nowrap">CV</span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </nav>
