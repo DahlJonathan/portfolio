@@ -38,6 +38,10 @@ const KoodSisu = () => {
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="text-emerald-400 mt-1">✓</span>
+                                        <span><strong className="text-white">Group collaboration</strong> - We learn how to work effectively in groups</span>
+                                    </li>
+                                    <li className="flex items-start gap-3">
+                                        <span className="text-emerald-400 mt-1">✓</span>
                                         <span><strong className="text-white">Peer review</strong> - We evaluate and audit other students' code and projects</span>
                                     </li>
                                     <li className="flex items-start gap-3">
