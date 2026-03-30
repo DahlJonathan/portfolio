@@ -91,47 +91,49 @@ const Home = () => {
                                 <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-3 sm:gap-5 justify-center text-center">
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-5 h-5" />
-                                        <span className="text-gray-100">React</span>
+                                        <span className="text-gray-100 text-sm">React</span>
                                     </div>
+                            
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-5 h-5" />
-                                        <span className="text-gray-100">Tailwind CSS</span>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-5 h-5" />
+                                        <span className="text-gray-100 text-sm">Golang</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-5 h-5" />
-                                        <span className="text-gray-100">JavaScript</span>
+                                        <span className="text-gray-100 text-sm">JavaScript</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-5 h-5" />
-                                        <span className="text-gray-100">TypeScript</span>
+                                        <span className="text-gray-100 text-sm">TypeScript</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-5 h-5" />
-                                        <span className="text-gray-100">PostgreSQL</span>
+                                        <span className="text-gray-100 text-sm">PostgreSQL</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" className="w-5 h-5" />
-                                        <span className="text-gray-100">Firebase</span>
+                                        <span className="text-gray-100 text-sm">Firebase</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-5 h-5" />
-                                        <span className="text-gray-100">Flutter</span>
+                                        <span className="text-gray-100 text-sm">Flutter</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-5 h-5" />
-                                        <span className="text-gray-100">Node.js</span>
+                                        <span className="text-gray-100 text-sm">Node.js</span>
                                     </div>
+                                    
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-5 h-5" />
-                                        <span className="text-gray-100">Golang</span>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-5 h-5" />
+                                        <span className="text-gray-100 text-sm">Android Studio</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" className="w-5 h-5" />
-                                        <span className="text-gray-100">Visual Studio</span>
+                                        <span className="text-gray-100 text-sm">Visual Studio</span>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-5 h-5" />
-                                        <span className="text-gray-100">Android Studio</span>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-5 h-5" />
+                                        <span className="text-gray-100 text-sm">Tailwind CSS</span>
                                     </div>
                                 </div>
                             </section>
