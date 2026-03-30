@@ -86,50 +86,50 @@ const Home = () => {
                             </section>
 
                             {/* Full-width Coding Stack box */}
-                            <section className="relative z-40 md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-6 md:p-8 hover:ring-white/25 transition">
+                            <section className="relative z-40 md:col-span-2 bg-white/10 ring-1 ring-white/15 rounded-2xl p-4 md:p-8 hover:ring-white/25 transition">
                                 <h2 className="text-white text-2xl font-semibold mb-5 justify-center items-center text-center">Development Stack</h2>
                                 <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-3 sm:gap-5 justify-center text-center">
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-5 h-5" />
                                         <span className="text-gray-100">React</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-5 h-5" />
                                         <span className="text-gray-100">Tailwind CSS</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-5 h-5" />
                                         <span className="text-gray-100">JavaScript</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-5 h-5" />
                                         <span className="text-gray-100">TypeScript</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-5 h-5" />
                                         <span className="text-gray-100">PostgreSQL</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" className="w-5 h-5" />
                                         <span className="text-gray-100">Firebase</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-5 h-5" />
                                         <span className="text-gray-100">Flutter</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-5 h-5" />
                                         <span className="text-gray-100">Node.js</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-5 h-5" />
                                         <span className="text-gray-100">Golang</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" className="w-5 h-5" />
                                         <span className="text-gray-100">Visual Studio</span>
                                     </div>
-                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center justify-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-5 h-5" />
                                         <span className="text-gray-100">Android Studio</span>
                                     </div>
