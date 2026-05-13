@@ -93,7 +93,7 @@ const Home = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-6 h-6" />
                                         <span className="text-gray-100">React</span>
                                     </div>
-                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-2 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-6 h-6" />
                                         <span className="text-gray-100">Tailwind CSS</span>
                                     </div>
@@ -105,7 +105,7 @@ const Home = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-6 h-6" />
                                         <span className="text-gray-100">TypeScript</span>
                                     </div>
-                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                    <div className="flex items-center gap-1 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-6 h-6" />
                                         <span className="text-gray-100">PostgreSQL</span>
                                     </div>
@@ -117,21 +117,30 @@ const Home = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-6 h-6" />
                                         <span className="text-gray-100">Flutter</span>
                                     </div>
-                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-6 h-6" />
-                                        <span className="text-gray-100">Node.js</span>
-                                    </div>
+                                    
                                     <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" className="w-6 h-6" />
                                         <span className="text-gray-100">Golang</span>
+                                    </div>                                    
+                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-6 h-6" />
+                                        <span className="text-gray-100">Android Studio</span>
                                     </div>
                                     <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" className="w-6 h-6" />
                                         <span className="text-gray-100">Visual Studio</span>
                                     </div>
                                     <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" className="w-6 h-6" />
-                                        <span className="text-gray-100">Android Studio</span>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-6 h-6" />
+                                        <span className="text-gray-100">Node.js</span>
+                                    </div>
+                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="NestJS" className="w-6 h-6" />
+                                        <span className="text-gray-100">NestJS</span>
+                                    </div>
+                                    <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-2">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" className="w-6 h-6 invert" />
+                                        <span className="text-gray-100">Express</span>
                                     </div>
                                 </div>
                             </section>
