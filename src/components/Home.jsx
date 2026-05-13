@@ -78,9 +78,9 @@ const Home = () => {
                             <section className="relative z-40 bg-white/8 ring-1 ring-white/10 rounded-2xl p-5 md:p-7 hover:ring-white/20 transition">
                                 <h2 className="text-white text-2xl font-semibold mb-3">School</h2>
                                 <ul className="text-gray-200 space-y-2">
-                                    <span className="text-white font-semibold">Kood/Sisu — graduating April 2026</span>
+                                    <span className="text-white font-semibold">Kood/Sisu — 2024 - 2026</span>
                                     <li>- Full-stack and mobile developer</li>
-                                    <span className="text-white font-semibold">Yrkesskola Optima - 2005-2008</span>
+                                    <span className="text-white font-semibold">Yrkesskola Optima - 2005 - 2008</span>
                                     <li>- CNC Machinist</li>
                                 </ul>
                             </section>
