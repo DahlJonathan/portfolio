@@ -172,7 +172,7 @@ const Home = () => {
                                         <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
                                         <div className="flex items-baseline justify-between">
                                             <span className="text-white font-semibold">Kolppasen Betoni</span>
-                                            <span className="text-gray-400 text-sm">2014 → 2019</span>
+                                            <span className="text-gray-400 text-sm">2017 → 2019</span>
                                         </div>
                                         <p className="text-gray-300 text-sm">Concrete Truck Operator</p>
                                     </div>
@@ -181,7 +181,7 @@ const Home = () => {
                                         <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-white/20"></span>
                                         <div className="flex items-baseline justify-between">
                                             <span className="text-white font-semibold">HSJ Production</span>
-                                            <span className="text-gray-400 text-sm">2009 → 2014</span>
+                                            <span className="text-gray-400 text-sm">2013 → 2017</span>
                                         </div>
                                         <p className="text-gray-300 text-sm">Metalworker</p>
                                     </div>
