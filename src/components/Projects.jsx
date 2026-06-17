@@ -15,30 +15,23 @@ const Projects = () => {
         TypeScript: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
         Golang: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
         SQLite: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg',
+        HTML: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+        CSS: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
     };
 
     const getIcon = (tech) => ICONS[tech] || null;
     const projects = [
-        {
+         {
             id: 1,
-            title: 'Kood Connect',
-            description: 'A modern android application for Kood/Sisu students to find study partners or get help on tasks from other students.',
-            technologies: ['Flutter', 'Firebase'],
-            image: '/koodconnect.png',
-            link: 'https://play.google.com/store/apps/details?id=fi.kood.sisu',
-            linkText: 'View on Play Store'
+            title: 'Freelance work',
+            description: 'Helped client build their homepage, they had the design ready and I implemented it using HTML, CSS, and JavaScript. I also helped them with everything else related to the website like hosting and domain.',
+            technologies: ['HTML', 'CSS', 'JavaScript'],
+            image: '/starprint.png',
+            link: 'https://starprint.fi/',
+            linkText: 'View Website'
         },
-        {
+         {
             id: 2,
-            title: 'Portfolio',
-            description: 'This portfolio is built from scratch using React and Tailwind, designed to showcase my skills as a frontend developer',
-            technologies: ['React', 'Tailwind'],
-            image: '/thisportfolio.png',
-            link: 'https://github.com/DahlJonathan/portfolio',
-            linkText: 'View on GitHub'
-        },
-        {
-            id: 3,
             title: 'Internship',
             description: 'Built a full-stack web app using React for the frontend and Node.js/Express for the backend. Used Supabase for the database and added AI features into the app. Helped deploy and publish the whole project.',
             technologies: ['React', 'Node.js', 'Express', 'Supabase'],
@@ -48,6 +41,24 @@ const Projects = () => {
         },
         {
             id: 3,
+            title: 'Portfolio',
+            description: 'This portfolio is built from scratch using React and Tailwind, designed to showcase my skills as a frontend developer',
+            technologies: ['React', 'Tailwind'],
+            image: '/thisportfolio.png',
+            link: 'https://github.com/DahlJonathan/portfolio',
+            linkText: 'View on GitHub'
+        },
+       {
+            id: 4,
+            title: 'Kood Connect',
+            description: 'A modern android application for Kood/Sisu students to find study partners or get help on tasks from other students.',
+            technologies: ['Flutter', 'Firebase'],
+            image: '/koodconnect.png',
+            link: 'https://play.google.com/store/apps/details?id=fi.kood.sisu',
+            linkText: 'View on Play Store'
+        },
+        {
+            id: 5,
             title: 'Full-stack project',
             description: 'A full-stack project I built to challenge myself in Golang and TypeScript. Its a user management system where I focused on getting the frontend and backend to work nicely together. Used SQLite to keep things light and React for the UI.',
             technologies: ['React', 'TypeScript', 'Golang', 'SQLite'],
