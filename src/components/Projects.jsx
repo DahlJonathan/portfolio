@@ -23,8 +23,8 @@ const Projects = () => {
     const projects = [
          {
             id: 1,
-            title: 'Freelance work',
-            description: 'Helped client build their homepage, they had the design ready and I implemented it using HTML, CSS, and JavaScript. I also helped them with everything else related to the website like hosting and domain.',
+            title: 'Starprint Finland Oy website',
+            description: 'This project involved customizing the sites design and structure, developing a dynamic contact form, and setting up the entire hosting architecture. I guided the client through the domain purchasing process and successfully configured the domain to deploy via Netlify, ensuring fast and reliable performance.',
             technologies: ['HTML', 'CSS', 'JavaScript'],
             image: '/starprint.png',
             link: 'https://starprint.fi/',
