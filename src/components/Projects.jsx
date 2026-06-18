@@ -24,7 +24,7 @@ const Projects = () => {
          {
             id: 1,
             title: 'Starprint Finland Oy website',
-            description: 'This project involved customizing the sites design and structure, developing a dynamic contact form, and setting up the entire hosting architecture. I guided the client through the domain purchasing process and successfully configured the domain to deploy via Netlify, ensuring fast and reliable performance.',
+            description: 'This project involved customizing the sites design and structure, developing a dynamic contact form, and setting up the entire hosting architecture. I guided the client through the domain purchasing process and successfully managed the deployment configuration, ensuring fast and reliable performance.',
             technologies: ['HTML', 'CSS', 'JavaScript'],
             image: '/starprint.png',
             link: 'https://starprint.fi/',
