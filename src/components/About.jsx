@@ -58,7 +58,7 @@ const About = () => {
                                 </div>
                                 <div className="flex items-baseline">
                                     <span className="text-white font-semibold mr-2">Email:</span>
-                                    <span className="text-white text-sm">jonathan.dahl@example.com</span>
+                                    <span className="text-white text-sm">dahl.jonathan@hotmail.com</span>
                                 </div>
                                 <div className="mt-1">
                                     <a
