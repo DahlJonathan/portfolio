@@ -57,8 +57,8 @@ const About = () => {
                                     <span className="text-white text-sm">Swedish, Finnish, English</span>
                                 </div>
                                 <div className="flex items-baseline">
-                                    <span className="text-white font-semibold mr-2">Age:</span>
-                                    <span className="text-white text-sm">36</span>
+                                    <span className="text-white font-semibold mr-2">Email:</span>
+                                    <span className="text-white text-sm">jonathan.dahl@example.com</span>
                                 </div>
                                 <div className="mt-1">
                                     <a
