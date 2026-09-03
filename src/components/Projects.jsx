@@ -21,7 +21,7 @@ const Projects = () => {
 
     const getIcon = (tech) => ICONS[tech] || null;
     const projects = [
-         {
+        {
             id: 1,
             title: 'Starprint Finland Oy website',
             description: 'This project involved customizing the sites design and structure, developing a dynamic contact form, and setting up the entire hosting architecture. I guided the client through the domain purchasing process and successfully managed the deployment configuration, ensuring fast and reliable performance.',
@@ -30,7 +30,7 @@ const Projects = () => {
             link: 'https://starprint.fi/',
             linkText: 'View Website'
         },
-         {
+        {
             id: 2,
             title: 'Internship',
             description: 'Built a full-stack web app using React for the frontend and Node.js/Express for the backend. Used Supabase for the database and added AI features into the app. Helped deploy and publish the whole project.',
@@ -48,20 +48,20 @@ const Projects = () => {
             link: 'https://github.com/DahlJonathan/portfolio',
             linkText: 'View on GitHub'
         },
-       {
+        {
             id: 4,
-            title: 'Kood Connect',
-            description: 'A modern android application for Kood/Sisu students to find study partners or get help on tasks from other students.',
-            technologies: ['Flutter', 'Firebase'],
-            image: '/koodconnect.png',
-            link: 'https://play.google.com/store/apps/details?id=fi.kood.sisu',
-            linkText: 'View on Play Store'
+            title: 'Erp project',
+            description: 'An ERP system where users can create their own account, add clients and their projects, track work hours, manage purchases and order tracking, and generate invoices automatically.',
+            technologies: ['TypeScript', 'Supabase', 'Tailwind'],
+            image: '/erp.png',
+            link: 'https://github.com/DahlJonathan/erp',
+            linkText: 'View on GitHub'
         },
         {
             id: 5,
             title: 'Full-stack project',
             description: 'A full-stack project I built to challenge myself in Golang and TypeScript. Its a user management system where I focused on getting the frontend and backend to work nicely together. Used SQLite to keep things light and React for the UI.',
-            technologies: ['React', 'TypeScript', 'Golang', 'SQLite'],
+            technologies: ['TypeScript', 'Golang', 'SQLite'],
             image: '/user-managment-system.png',
             link: 'https://github.com/DahlJonathan/User-Management-System',
             linkText: 'View on GitHub'
